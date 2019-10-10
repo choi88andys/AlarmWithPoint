@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterAlarm">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RadioGroup
+            android:id="@+id/rg_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radio_water"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="water"
+                android:textSize="12sp" />
+
+            <RadioButton
+                android:id="@+id/radio_medic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="medi"
+                android:textSize="12sp" />
+
+            <RadioButton
+                android:id="@+id/radio_break"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="break"
+                android:textSize="12sp" />
+
+            <RadioButton
+                android:id="@+id/radio_meal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="meal"
+                android:textSize="12sp" />
+
+            <RadioButton
+                android:id="@+id/radio_exe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="exercise"
+                android:textSize="12sp" />
+
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/rg_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radio_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="sun"
+                android:textSize="12sp" />
+
+            <RadioButton
+                android:id="@+id/radio_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="mon"
+                android:textSize="12sp" />
+
+            <RadioButton
+                android:id="@+id/radio_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="tue"
+                android:textSize="12sp" />
+
+            <RadioButton
+                android:id="@+id/radio_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="wed"
+                android:textSize="12sp" />
+
+            <RadioButton
+                android:id="@+id/radio_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="thu"
+                android:textSize="12sp" />
+
+            <RadioButton
+                android:id="@+id/radio_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="fri"
+                android:textSize="12sp" />
+
+            <RadioButton
+                android:id="@+id/radio_7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="sat"
+                android:textSize="12sp" />
+
+        </RadioGroup>
+
+
+        <Button
+            android:id="@+id/btn_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Select time"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5">
+
+            <ListView
+                android:id="@+id/list_1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </ListView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="3.5">
+
+            <Button
+                android:id="@+id/btn_register"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Register" />
+
+            <Button
+                android:id="@+id/btn_reset"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Reset" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

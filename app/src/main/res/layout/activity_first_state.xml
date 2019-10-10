@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstState">
+
+
+    <and.sample.alarmwithpoint.common.Label
+        android:id="@+id/lable_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"></and.sample.alarmwithpoint.common.Label>
+
+
+    <GridLayout
+        android:id="@+id/grid_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:columnCount="3"
+
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/lable_1">
+
+        <Button
+            android:id="@+id/btn_water"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="img_water"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/btn_medic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="img_medic"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/btn_break"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="img_break"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/btn_exe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="img_exe"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/btn_meal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="img_meal"
+            android:visibility="invisible" />
+
+    </GridLayout>
+
+
+    <Button
+        android:id="@+id/btn_alarm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:text="Alarm Page"
+
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+
+</android.support.constraint.ConstraintLayout>

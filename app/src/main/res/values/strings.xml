@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">AlarmWithPoint</string>
+
+    <string name="keyword_water"> water</string>
+    <string name="keyword_medic"> medic</string>
+    <string name="keyword_break"> break</string>
+    <string name="keyword_meal"> meal</string>
+    <string name="keyword_exe"> exe</string>
+
+
+    <integer name="interval_water">60</integer>
+    <integer name="interval_medic">180</integer>
+    <integer name="interval_break">60</integer>
+    <integer name="interval_meal">240</integer>
+    <integer name="interval_exe">360</integer>
+    <integer name="interval_default">60</integer>
+    <integer name="base_point">100</integer>
+
+
+
+</resources>

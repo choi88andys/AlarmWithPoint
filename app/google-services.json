@@ -1,0 +1,85 @@
+{
+  "project_info": {
+    "project_number": "1058909219153",
+    "firebase_url": "https://alarmandplay.firebaseio.com",
+    "project_id": "alarmandplay",
+    "storage_bucket": "alarmandplay.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1058909219153:android:2e31340f1112d00f764b70",
+        "android_client_info": {
+          "package_name": "and.sample.alarmwithpoint"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1058909219153-fpuq2ht7m1vfp3qc4saprfm4d4ahpmen.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "and.sample.alarmwithpoint",
+            "certificate_hash": "129b361383a46e9fc10f260bc2603174f8ddff77"
+          }
+        },
+        {
+          "client_id": "1058909219153-nnlnednk1caod0lu65dtk4tqlk628457.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcO4kMGbkZ77iF6kTKJAElZVVxo0td9v0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1058909219153-nnlnednk1caod0lu65dtk4tqlk628457.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1058909219153:android:a51cdc56e4ee19b4764b70",
+        "android_client_info": {
+          "package_name": "and.sample.deckbuilder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1058909219153-499i58q4don13dh8m9ps974mg5dqif6q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "and.sample.deckbuilder",
+            "certificate_hash": "129b361383a46e9fc10f260bc2603174f8ddff77"
+          }
+        },
+        {
+          "client_id": "1058909219153-nnlnednk1caod0lu65dtk4tqlk628457.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcO4kMGbkZ77iF6kTKJAElZVVxo0td9v0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1058909219153-nnlnednk1caod0lu65dtk4tqlk628457.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
